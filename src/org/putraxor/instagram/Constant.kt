@@ -2,9 +2,9 @@ package org.putraxor.instagram
 
 
 object KEY {
-    val SIG_KEY = "2f6dcdf76deb0d3fd008886d032162a79b88052b5f50538c1ee93c4fe7d02e60";
+    val SIG_KEY = "5ad7d6f013666cc93c88fc8af940348bd067b68f0dce3c85122a923f4f74b251";
     val SIG_VERSION = "4"
-    val APP_VERSION = "9.7.0" 
+    val APP_VERSION = "10.3.2"
 }
 
 object HTTP {
@@ -16,7 +16,7 @@ object HTTP {
     val ENDPOINT = "${HOST}api/v1/";
 
     val HEADERS = mapOf("X-IG-Connection-Type" to "WIFI",
-            "X-IG-Capabilities" to "3QI=",
+            "X-IG-Capabilities" to "3ToAAA==",
             "Accept-Language" to "en-US",
             "Host" to HOSTNAME,
             "Accept" to "*/*",
