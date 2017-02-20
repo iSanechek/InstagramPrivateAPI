@@ -190,6 +190,10 @@ object Routes {
         return "discover/ayml/"
     }
 
+    fun discover(): String {
+        return "discover/channels_home/"
+    }
+
     fun v2Inbox(): String {
         return "direct_v2/inbox/?"
     }

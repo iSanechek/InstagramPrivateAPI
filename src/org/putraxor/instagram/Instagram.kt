@@ -105,4 +105,8 @@ object Instagram {
         return Req.prepare(Routes.recetActivity()).send()
     }
 
+    fun getDiscover(): Response {
+        return Req.prepare(Routes.discover()).send()
+    }
+
 }
